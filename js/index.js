@@ -1,0 +1,1 @@
+function scrollPara(a){$(a).click(function(a){a.preventDefault();var r=$(this).attr("href");$("html, body").animate({scrollTop:$(r).offset().top},700)})}scrollPara("a[href*=sobre]"),scrollPara("a[href*=palestrantes]"),scrollPara("a[href*=inscreva-se]");
